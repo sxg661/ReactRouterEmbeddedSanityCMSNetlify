@@ -1,3 +1,11 @@
+# Notes about project template
+
+- Built using vite
+- Includes an embedded sanity studio
+  - To direct it at your studio, go to studio/sanity.config.ts and change project ID and dataset to match yours
+  - I put an example schema in schemaTypes - you can replace this with your own schemas
+- Routes in src/App.tsx including child routes that share a layout, the /studio route for sanity and the /studio/* redirect.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
